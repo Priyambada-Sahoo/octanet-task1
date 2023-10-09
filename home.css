@@ -1,0 +1,80 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+     background-image: url("/Image/finalhome.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover; 
+ 
+}
+
+header{
+    margin-top: 2%;
+}
+
+.link{
+    font-size: 1.2rem;
+}
+
+
+a{
+    padding-left: 5%;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+}
+figure{
+    padding-left: 10%;
+}
+
+
+.sec1{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 90%;
+}
+
+
+.hometxt{
+    color: black;
+    text-align: left;
+    margin-top: 10%;
+    margin-left: 10%;
+    padding-top: 80px;
+}
+
+
+.homeimg{
+    margin-top: 10%;
+    padding-bottom: 7%;
+    padding-left: 50px;
+}
+
+.p5{
+    font-size: 2.5rem; 
+     font-weight: bold; 
+    font-family:sans-serif;
+}
+
+
+.p7{
+    padding-top: 15px;
+    font-weight: 90;
+}
+
+button{
+    width: 30%;
+     font-size: 15px; 
+    background-color:rgb(53, 52, 52);
+    color: white;
+    padding: 10px;
+    text-align: left;
+    padding-left: 15px;
+    border-radius: 80px;
+}
